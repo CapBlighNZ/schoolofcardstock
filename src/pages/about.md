@@ -3,21 +3,37 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-<div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-
-  <div class="p-4 md:p-5">
-    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
-      Card title
-    </h3>
-    <p class="mt-2 text-gray-500 dark:text-gray-400">
-      With supporting text below as a natural lead-in to additional content.
-    </p>
-    <a class="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-blue-600 hover:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#">
-      Card link
-      <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-    </a>
-  </div>
-</div>
+	<!-- Component Start -->
+	<div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 xl:max-w-6xl max-w-4xl">
+		<!-- Tile 1 -->
+		<div class="flex bg-gray-200 rounded-lg p-4 m-2">
+			<div class="w-64 bg-gray-400 rounded-lg"></div>
+			<div class="flex flex-col items-start ml-4">
+				<h4 class="text-xl font-semibold">Heading</h4>
+				<p class="text-sm">Some text about the thing that goes over a few lines.</p>
+				<a class="p-2 leading-none rounded font-medium mt-3 bg-gray-400 text-xs uppercase" href="#">Click Here</a>
+			</div>
+		</div>
+		<!-- Tile 2 -->
+		<div class="flex bg-gray-200 rounded-lg p-4 m-2">
+			<div class="w-64 bg-gray-400 rounded-lg"></div>
+			<div class="flex flex-col items-start ml-4">
+				<h4 class="text-xl font-semibold">Heading</h4>
+				<p class="text-sm">Some text about the thing that goes over a few lines.</p>
+				<a class="p-2 leading-none rounded font-medium mt-3 bg-gray-400 text-xs uppercase" href="#">Click Here</a>
+			</div>
+		</div>
+		<!-- Tile 3 -->
+		<div class="flex bg-gray-200 rounded-lg p-4 m-2">
+			<div class="w-64 bg-gray-400 rounded-lg"></div>
+			<div class="flex flex-col items-start ml-4">
+				<h4 class="text-xl font-semibold">Heading</h4>
+				<p class="text-sm">Some text about the thing that goes over a few lines.</p>
+				<a class="p-2 leading-none rounded font-medium mt-3 bg-gray-400 text-xs uppercase" href="#">Click Here</a>
+			</div>
+		</div>
+	</div>
+	<!-- Component End  -->
 
 AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
 
