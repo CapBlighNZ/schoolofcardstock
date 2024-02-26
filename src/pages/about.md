@@ -4,7 +4,7 @@ title: "About"
 ---
 
 
-	<div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 xl:max-w-6xl max-w-4xl">
+<div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 xl:max-w-6xl max-w-4xl">
 		<!-- Tile 1 -->
 		<div class="flex bg-gray-200 rounded-lg p-4 m-2">
 			<div class="w-64 bg-gray-400 rounded-lg"></div>
@@ -32,7 +32,8 @@ title: "About"
 				<a class="p-2 leading-none rounded font-medium mt-3 bg-gray-400 text-xs uppercase" href="#">Click Here</a>
 			</div>
 		</div>
-	</div>
+</div>
+
 
 
 AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
