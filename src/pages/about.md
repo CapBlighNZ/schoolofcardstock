@@ -2,12 +2,9 @@
 layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
+
 <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-  <div class="bg-gray-100 border-b rounded-t-xl py-3 px-4 md:py-4 md:px-5 dark:bg-slate-900 dark:border-gray-700">
-    <p class="mt-1 text-sm text-gray-500 dark:text-gray-500">
-      Featured
-    </p>
-  </div>
+
   <div class="p-4 md:p-5">
     <h3 class="text-lg font-bold text-gray-800 dark:text-white">
       Card title
@@ -21,6 +18,7 @@ title: "About"
     </a>
   </div>
 </div>
+
 AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
 
 This theme is aimed to be accessible out of the box. Light and dark mode are supported by
